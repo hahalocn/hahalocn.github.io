@@ -1745,6 +1745,13 @@ pre .javascript .function {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  transition: 1s all;
+}
+.site-author-image: hover {
+  -web-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -transform: rotate(90deg);
 }
 .site-author-name {
   margin: 0;
@@ -1826,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e2ffff;
+  background: #e204df;
 }
 .links-of-blogroll {
   font-size: 13px;
