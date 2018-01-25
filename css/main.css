@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #eb6218;
+  background: #d925f4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3009,5 +3009,5 @@ pre .javascript .function {
 .site-meta {
   padding: 50px;
   color: #f00;
-  background-image: url("../../images/cat.jpeg");
+  background-image: url("../../images/cat.jpg");
 }
