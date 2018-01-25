@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #52b8e8;
+  background: #eb6218;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3009,5 +3009,5 @@ pre .javascript .function {
 .site-meta {
   padding: 50px;
   color: #f00;
-  background-image: url("https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/");
+  background-image: url("../../images/cat.jpeg");
 }
