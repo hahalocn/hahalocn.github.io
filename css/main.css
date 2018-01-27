@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7e81ff;
+  background: #0845bd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2698,7 +2698,7 @@ embed {
 .site-meta {
   padding: 40px;
   color: #f00;
-  background: url("../../images/cat.jpeg");
+  background: url("../../images/nature-1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
