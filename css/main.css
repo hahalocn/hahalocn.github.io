@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff0e;
+  background: #b6ff50;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2698,6 +2698,7 @@ embed {
   background: #ccc;
   background-image: url("../../images/wyx.jpg");
   display: block;
+  background-position: center;
 }
 .brand {
   position: relative;
