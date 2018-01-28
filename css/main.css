@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #36a8fa;
+  background: #b9af16;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2696,7 +2696,7 @@ embed {
 }
 .header {
   background: #ccc;
-  background-image: url("../../images/wyx.jpg");
+  background-image: url("../../images/snow-1000-680.png");
   display: block;
   background-position: center;
 }
