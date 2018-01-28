@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0f6cfb;
+  background: #ffff0e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2691,11 +2691,6 @@ embed {
   display: inline-block;
 }
 .site-meta {
-  padding: 90px;
-  color: #f00;
-  background: rgba(0,0,0,0.5);
-}
-.site-meta {
   padding: 40px;
   color: #f00;
 }
@@ -2703,4 +2698,16 @@ embed {
   background: #ccc;
   background-image: url("../../images/wyx.jpg");
   display: block;
+}
+.brand {
+  position: relative;
+  display: inline-block;
+  padding: 0 40px;
+  color: #fff;
+  border-bottom: none;
+}
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #f9f9f9;
 }
