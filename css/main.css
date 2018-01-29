@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #37daba;
+  background: #99ffcd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2696,6 +2696,7 @@ embed {
 .header {
   background: #bbb;
   background-image: url("../../images/130.jpg");
+  background-size: 100%;
 }
 .brand {
   position: relative;
@@ -2712,7 +2713,7 @@ embed {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 0;
+  padding: 100px 0 100px 0;
   width: auto;
   position: relative;
 }
