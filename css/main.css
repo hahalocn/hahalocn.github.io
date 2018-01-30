@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #32ffdd;
+  background: #ff9f2f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2658,7 +2658,7 @@ embed {
     left: 0;
     top: 30px;
     margin: 0;
-    width: 16%;
+    width: 20%;
     padding: 0;
     background: transparent;
     border-bottom: 0px none #ddd;
