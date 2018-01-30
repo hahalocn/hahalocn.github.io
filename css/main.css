@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #df38b1;
+  background: #406038;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2697,6 +2697,5 @@ embed {
 }
 .header {
   background-image: url("../../images/wood.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
 }
