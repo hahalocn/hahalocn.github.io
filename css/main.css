@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cc5baf;
+  background: #da77aa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2625,7 +2625,7 @@ pre .javascript .function {
 @media (max-width: 767px) {
   .header {
     height: 235px;
-    background-position-x: 2px;
+    background-position-x: 5px;
   }
 }
 embed {
@@ -2697,7 +2697,7 @@ embed {
   display: inline-block;
 }
 .header {
-  background-image: url("../../images/wood.jpg");
+  background-image: url("../../images/wood-white.jpg");
   background-size: contain;
 }
 .brand {
