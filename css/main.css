@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #da77aa;
+  background: #32ffdd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2658,10 +2658,11 @@ embed {
     left: 0;
     top: 30px;
     margin: 0;
-    width: 30%;
+    width: 16%;
     padding: 0;
     background: transparent;
     border-bottom: 0px none #ddd;
+    border-top-style: none;
     z-index: 1030;
   }
 }
@@ -2701,7 +2702,8 @@ embed {
   background-size: contain;
 }
 .brand {
-  background: transparent;
+  background: #ccc;
+  border-radius: 50%;
 }
 .site-subtitle {
   z-index: -1;
