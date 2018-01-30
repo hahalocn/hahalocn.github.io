@@ -87,8 +87,7 @@
 <meta property="og:description" content="我真是太笨了！我真是太笨了！为什么说两边呢？因为笨了两次。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/01/30/0130/test.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/01/30/images/test.jpg">
-<meta property="og:updated_time" content="2018-01-30T11:24:48.861Z">
+<meta property="og:updated_time" content="2018-01-30T11:27:20.101Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="test--header component done">
 <meta name="twitter:description" content="我真是太笨了！我真是太笨了！为什么说两边呢？因为笨了两次。">
@@ -308,7 +307,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-01-30T19:24:48+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-01-30T19:27:20+08:00">
                 2018-01-30
               </time>
             
@@ -383,7 +382,7 @@
 
       
         <img src="/2018/01/30/0130/test.jpg" title="test">
-<p>我真是太笨了！<br>我真是太笨了！<br>为什么说两边呢？因为笨了两次。<br><a id="more"></a><br>&emsp;终于完成了header部分背景图片的选择与设计。虽然说其实就是照着原代码修改css部分，就像换装游戏，但是真是太不容易了。(用header这个词是因为原html代码设置这部分的id为header)<br>&emsp;本来是想找个风景图放在header上，但是面临了很多问题，如图片大小很难和header部分的大小一致(单位px)，background-size设置为cover则手机端图片显示不好看，设置为contain，然后设置background-repeat，但是风景图repeat起来就很难看了。<br>&emsp;既然cover对手机端不太友好，然后我就考虑去找next主题对手机端的适配文件在哪，当然找到了。这里就又出现了另一个让我难受一天的问题。添加代码不管用！配置文件里有几段代码，我尝试修改几个数字则可以，而我自己按照样子添加代码则不成功。肯定是我错了呗，毕竟代码不是我想加想加就能加的。然后放弃此方法。<br><img src="../images/test.jpg" alt="test"><br>&emsp;但是，今天我在手机端配置文件中添加就成功了，真的是无语，现在怀疑昨天出现的问题可能是用了汉字标点或者冒号后忘记加空格又或者其他什么原因了，反正今天成功了。<br>&emsp;还是昨天的事，既然单独对手机端修改不行，那我就想另一种办法，能不能修改header及它内部其他id的padding之类的，结果可想而知，失败了。<br>&emsp;主题晚上，发现了现在header部分的背景图片，白色木板。这是个好东西啊，简单，优雅而且可以repeat啊。然后开始调整各个部分，最总电脑上的差强人意。然后今天居然修改手机端配置文件时居然可行了！然后趁势而行，最总完成手机端menu-nav的透明及尺寸设计。但是手机端还只是在iPhone6的safari上如期显示，但是其他尺寸的手机或者浏览器还不知道显示效果如何。其实电脑端我也有这样的担心。有这个问题主要是我很多东西都用了绝对大小，即用px为单位，而没有用百分比。<br>&emsp;以上基本上就算是第一个问题。<br>&emsp;第二个问题就是写此篇的时候发现插入图片失败，然后就是尝试了html语法和md语法的以及图片存放在不同路径下的各种组合，皆以失败告终，最终发现是images文件夹写错成了iamges……<br>&emsp;最后当然成功了，不过修改文件夹之后还是错了几次。一开始我想着简单点，就在此此片文章的同目录下创images，然后用&lt;img src=”/images/test.jpg” alt=”test” /&gt;但是不知道为什么不行，可能是我这种路径写法错误？然后我把images文件夹移到和此片文章文件夹同级中，即sources/post/post.md，sources/images/test.jpg，然后用&lt;img src=”../images.test.jpg” alt=”test”/&gt;就成功了。代码高亮什么的就不算了，这又不是技术博，哪有那么多代码。<br>&emsp;经过好几天的反复测试与失败(还好测试可以直接在浏览器进行，否则真的要疯)，最终header成功啦，第二批test也完成并添加图片成功啦.</p>
+<p>我真是太笨了！<br>我真是太笨了！<br>为什么说两边呢？因为笨了两次。<br><a id="more"></a><br>&emsp;终于完成了header部分背景图片的选择与设计。虽然说其实就是照着原代码修改css部分，就像换装游戏，但是真是太不容易了。(用header这个词是因为原html代码设置这部分的id为header)<br>&emsp;本来是想找个风景图放在header上，但是面临了很多问题，如图片大小很难和header部分的大小一致(单位px)，background-size设置为cover则手机端图片显示不好看，设置为contain，然后设置background-repeat，但是风景图repeat起来就很难看了。<br>&emsp;既然cover对手机端不太友好，然后我就考虑去找next主题对手机端的适配文件在哪，当然找到了。这里就又出现了另一个让我难受一天的问题。添加代码不管用！配置文件里有几段代码，我尝试修改几个数字则可以，而我自己按照样子添加代码则不成功。肯定是我错了呗，毕竟代码不是我想加想加就能加的。然后放弃此方法。<br>&emsp;但是，今天我在手机端配置文件中添加就成功了，真的是无语，现在怀疑昨天出现的问题可能是用了汉字标点或者冒号后忘记加空格又或者其他什么原因了，反正今天成功了。<br>&emsp;还是昨天的事，既然单独对手机端修改不行，那我就想另一种办法，能不能修改header及它内部其他id的padding之类的，结果可想而知，失败了。<br>&emsp;主题晚上，发现了现在header部分的背景图片，白色木板。这是个好东西啊，简单，优雅而且可以repeat啊。然后开始调整各个部分，最总电脑上的差强人意。然后今天居然修改手机端配置文件时居然可行了！然后趁势而行，最总完成手机端menu-nav的透明及尺寸设计。但是手机端还只是在iPhone6的safari上如期显示，但是其他尺寸的手机或者浏览器还不知道显示效果如何。其实电脑端我也有这样的担心。有这个问题主要是我很多东西都用了绝对大小，即用px为单位，而没有用百分比。<br>&emsp;以上基本上就算是第一个问题。<br>&emsp;第二个问题就是写此篇的时候发现插入图片失败，然后就是尝试了html语法和md语法的以及图片存放在不同路径下的各种组合，皆以失败告终，最终发现是images文件夹写错成了iamges……<br>&emsp;最后当然成功了，不过修改文件夹之后还是错了几次。一开始我想着简单点，就在此此片文章的同目录下创images，然后用&lt;img src=”/images/test.jpg” alt=”test” /&gt;但是不知道为什么不行，可能是我这种路径写法错误？然后我把images文件夹移到和此片文章文件夹同级中，即sources/post/post.md，sources/images/test.jpg，然后用&lt;img src=”../images.test.jpg” alt=”test”/&gt;就成功了。代码高亮什么的就不算了，这又不是技术博，哪有那么多代码。<br>&emsp;经过好几天的反复测试与失败(还好测试可以直接在浏览器进行，否则真的要疯)，最终header成功啦，第二批test也完成并添加图片成功啦.</p>
 
       
     </div>
@@ -417,10 +416,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/01/30/ceshi-md/" rel="prev" title="ceshi.md">
-                ceshi.md <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -494,7 +489,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
