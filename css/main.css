@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff8b5d;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2712,6 +2712,7 @@ embed {
   box-shadow: inset 19px -20px 50px 20px rgba(135,218,255,0.188);
   background-color: rgba(135,218,255,0.212);
   bottom: 25%;
+  background: transparent;
 }
 .site-author-image {
   border: 2px double rgba(135,218,255,0.588);
