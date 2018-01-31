@@ -1685,11 +1685,11 @@ pre .javascript .function {
   text-align: center;
 }
 .site-overview-wrap {
-  overflow: visible;
+  overflow: hidden;
 }
 .site-overview {
   overflow-y: auto;
-  overflow-x: visible;
+  overflow-x: hidden;
 }
 .sidebar-toggle {
   position: fixed;
@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff8b;
+  background: #ffff57;
 }
 .links-of-blogroll {
   font-size: 13px;
