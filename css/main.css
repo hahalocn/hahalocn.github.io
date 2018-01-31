@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a1fffa;
+  background: #91ee61;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2697,6 +2697,11 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
+@media (max-width: 767px) {
+  .sidebar {
+    background: transparent;
+  }
+}
 .header {
   background-image: url("../../images/wood-white.jpg");
   background-size: contain;
@@ -2712,4 +2717,5 @@ embed {
   box-shadow: 0 2px 6px #fff;
   background-image: url("../../images/pexels-0131.jpg");
   background-repeat: no-repeat;
+  background-color: transparent;
 }
