@@ -1685,11 +1685,11 @@ pre .javascript .function {
   text-align: center;
 }
 .site-overview-wrap {
-  overflow: hidden;
+  overflow: visible;
 }
 .site-overview {
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 .sidebar-toggle {
   position: fixed;
@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0b6c8b;
+  background: #ffff8b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1945,32 +1945,6 @@ pre .javascript .function {
 }
 .post-toc .nav .active-current > a:hover {
   color: #87daff;
-}
-.sidebar-active #sidebar-dimmer {
-  opacity: 0;
-  -webkit-transform: translateX(-150%);
-  -webkit-transform: translateX(-150%);
-  -moz-transform: translateX(-150%);
-  -ms-transform: translateX(-150%);
-  -o-transform: translateX(-150%);
-  transform: translateX(-150%);
-  transition: opacity 0.2s;
-}
-#sidebar-dimmer {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 200%;
-  height: 100%;
-  background: transparent;
-  opacity: 0;
-  transition: opacity 0.2s, transform 0s 0.2s;
-}
-@media (max-width: 767px) {
-  #sidebar-dimmer {
-    display: block;
-  }
 }
 .footer {
   font-size: 14px;
