@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #11a779;
+  background: #0b6c8b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1947,7 +1947,7 @@ pre .javascript .function {
   color: #87daff;
 }
 .sidebar-active #sidebar-dimmer {
-  opacity: 0.1;
+  opacity: 0;
   -webkit-transform: translateX(-150%);
   -webkit-transform: translateX(-150%);
   -moz-transform: translateX(-150%);
@@ -1963,7 +1963,7 @@ pre .javascript .function {
   left: 100%;
   width: 200%;
   height: 100%;
-  background: #000;
+  background: transparent;
   opacity: 0;
   transition: opacity 0.2s, transform 0s 0.2s;
 }
