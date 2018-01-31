@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ab65f9;
+  background: #ff636a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2696,6 +2696,11 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+@media (max-width: 767px) {
+  .sidebar {
+    width: auto;
+  }
 }
 .header {
   background-image: url("../../images/wood-white.jpg");
