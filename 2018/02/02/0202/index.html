@@ -87,7 +87,7 @@
 <meta property="og:description" content="sidebar部分基本完成测试添加了个人GitHub以及百度友链样式符合预期但是还有点小问题暂时解决不了">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/02/02/0202/pexels-0202.jpg">
-<meta property="og:updated_time" content="2018-02-02T09:12:17.345Z">
+<meta property="og:updated_time" content="2018-02-02T09:52:00.473Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="test--sidebar component done">
 <meta name="twitter:description" content="sidebar部分基本完成测试添加了个人GitHub以及百度友链样式符合预期但是还有点小问题暂时解决不了">
@@ -307,7 +307,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-02-02T17:12:17+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-02-02T17:52:00+08:00">
                 2018-02-02
               </time>
             
@@ -392,7 +392,7 @@
 <p>&emsp;&emsp;然后是sidebar的那个button，居然使用三个span，我有点奇怪为什么不用font awesome的icon呢？因为这个完全可以用icon啊。然后我就换成了icon的bar。其实效果都一样的，知识觉得网页既然很多地方用了icon，那这里也可以用icon。</p>
 <p>&emsp;&emsp;在于就是一点是，sidebar在手机端是由一个叫sidebar-dimmer的东西的，就是暗化背景，可能就是使sidebar可以在手机端看的清楚吧，因为sidebar在手机端打开是覆盖在页面上的，而在电脑上则页面会左移给sidebar让出一个空间，不过这也就造成了我下面另一个问题。</p>
 <p>&emsp;&emsp;这个dimmer在手机端的宽度是100%的，而sidebar的宽度在手机端应该是自适应的总之不是占据全部宽度，这就造成了左边有一部分阴影。解决的办法可以是修改sidebar-dimmer.styl文件使dimmer的颜色很sidebar的背景颜色一样，这样就好像显示为sidebar的宽度为100%，其实并不好看。<br>&emsp;&emsp;之后在sidebar.styl文件中找到了 @import “sidebar-dimmer” if hexo-config(‘sidebar.onmobile’); 这句话的意思就是如果手机端开启了sidebar，则导入sidebar-dimmer.styl，于是我就删了它。</p>
-<p>&emsp;&emsp;另一个问题就是电脑上的sidebar会使页面左移，但这不是我要要的，我希望的是和手机端一样覆盖在页面上。其实整个主题修改的风格就是transparent，即透明。不过目前这个问题我还解决不了，感觉这不是css的问题，那么既然不是css的问题肯定就超出了我目前的水平，但是我又想不到它在哪个文件做出的这种效果，又感觉像是css问题。不管怎么样现在我都解决不了，以后在研究吧。</p>
+<p>&emsp;&emsp;另一个问题就是电脑上的sidebar会使页面左移，但这不是我想要的，我希望的是和手机端一样覆盖在页面上。其实整个主题修改的风格就是transparent，即透明。不过目前这个问题我还解决不了，感觉这不是css的问题，那么既然不是css的问题肯定就超出了我目前的水平，但是我又想不到它在哪个文件做出的这种效果，又感觉像是css问题。不管怎么样现在我都解决不了，以后在研究吧。</p>
 
       
     </div>
