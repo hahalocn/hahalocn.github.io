@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3c91ff;
+  background: #d7ff93;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2747,4 +2747,11 @@ img {
 .posts-expand .post-eof {
   background: #87daff;
   width: 50%;
+}
+.footer {
+  color: rgba(96,103,109,0.78);
+  background: rgba(135,218,255,0.549);
+}
+.fa-heart {
+  color: #87daff;
 }
